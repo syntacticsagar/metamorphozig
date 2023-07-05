@@ -1,2 +1,5 @@
 /zig-cache/
 /.direnv/
+/zig-out/
+/src/.DS_Store
+/.DS_Store
