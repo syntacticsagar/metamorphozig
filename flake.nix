@@ -27,6 +27,8 @@
       in rec {
         devShells.default = pkgs.mkShell {
           buildInputs = [
+            pkgs.pkg-config
+            pkgs.SDL2
             zig.packages.${system}.master
             zls.packages.${system}.zls
           ];
